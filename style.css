@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+}
+
+.encabezado-pie {
+    border: 1px solid black;
+    height:75px;
+    margin: 20px 45px;
+    position: relative;
+    background:skyblue;
+}
+
+header h1 {
+    padding: 18px 50px;
+    text-align: left;
+    color: whitesmoke;
+}
+
+header div {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+header div img {
+    width: 65px;
+}
+section {
+    border: 1px solid black;
+    height:600px;
+    margin: 20px 45px;
+    background: skyblue;
+}
+
+section #contenedor {
+    border: 1px solid black;
+    height:550px;
+    margin: 20px;
+    background: white;
+}
+
+section #imagen {
+    width: 100px;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    right: 60px;
+}
+
+section div img {
+    width: 300px;
+}
+
+section ul {
+    padding: 25px;
+    text-align:center;
+}
+
+section ul li {
+    padding: 30px;
+    list-style: none;
+}
+
+p {
+    color: skyblue;
+}
+
+footer #logoinstagram {
+    position: relative;
+    top:10px;
+}
+
+
+footer div img {
+    width: 150px;
+    padding: 0 60px;
+    position: absolute;
+}
+
+footer #link {
+    text-align: right ;
+    padding: 35px;
+}
+
+footer #contacto {
+    width: 400px;
+    position: fixed;
+    right: 0;
+    margin: 0 50px;
+    padding: 0 100px;
+    bottom: 35px;
+}
+
+footer #contacto form {
+    color:blue;
+    text-transform: uppercase;
+}
