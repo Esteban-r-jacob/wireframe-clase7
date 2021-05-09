@@ -1,108 +1,83 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     width: 100vw;
-    height: 100vh;
+    height: 100vh
 }
 
 main {
-    width: 100vw;
-    height: 100vh;
+    width: 100%;
+    height:100% ;
+    padding: 20px;
+}
+
+header {
+    position: relative;
 }
 
 .encabezado-pie {
+    width: 100%;
+    height: 200px;
     border: 1px solid black;
-    height:75px;
-    margin: 20px 45px;
-    position: relative;
-    background:skyblue;
+    background: skyblue;
 }
 
-header h1 {
-    padding: 18px 50px;
-    text-align: left;
-    color: whitesmoke;
-}
-
-header div {
-    position: absolute;
-    right: 10px;
-    top: 5px;
+header h1{
+    padding: 80px;
+    color: rgb(245, 245, 245);
 }
 
 header div img {
-    width: 65px;
+    position: absolute;
+    width: 100px;
+    right: 40px;
+    top: 55px;
 }
+
 section {
     border: 1px solid black;
-    height:600px;
-    margin: 20px 45px;
-    background: skyblue;
+    background: cadetblue;
 }
 
 section #contenedor {
     border: 1px solid black;
-    height:550px;
-    margin: 20px;
-    background: white;
-}
-
-section #imagen {
-    width: 100px;
-    height: 200px;
-    margin: 0 auto;
-    position: relative;
-    right: 60px;
+    text-align: center;
+    margin: 10px ;
+    background:white;
 }
 
 section div img {
     width: 300px;
 }
 
-section ul {
-    padding: 25px;
-    text-align:center;
-}
-
 section ul li {
-    padding: 30px;
     list-style: none;
+    padding: 25px;
+    color: rgb(113, 187, 216);
+    background: white;
 }
 
-p {
-    color: skyblue;
-}
-
-footer #logoinstagram {
+footer {
     position: relative;
-    top:10px;
 }
-
 
 footer div img {
-    width: 150px;
-    padding: 0 60px;
+    width: 200px;
     position: absolute;
+    left: 40px;
+    bottom:70px;
+}
+ footer #link {
+    text-align: end;
+    padding: 80px;
 }
 
-footer #link {
-    text-align: right ;
-    padding: 35px;
-}
 
-footer #contacto {
-    width: 400px;
-    position: fixed;
-    right: 0;
-    margin: 0 50px;
-    padding: 0 100px;
-    bottom: 35px;
-}
 
-footer #contacto form {
-    color:blue;
-    text-transform: uppercase;
-}
+
+
+
